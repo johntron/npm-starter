@@ -20,7 +20,7 @@
     "prepush": "npm run precommit",
     "release": "standard-version",
     "test": "nyc mocha .",
-    "coverage": "nyc report --reporter=lcov --reporter=text-lcov > coverage.lcov && codecov",
+    "coverage": "nyc report --reporter=lcov",
     "test-watch": "npm run test -- --watch"
   },
   "dependencies": {
