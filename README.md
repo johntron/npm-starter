@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/johntron/npm-starter.svg?branch=master)](https://travis-ci.org/johntron/npm-starter)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a6a94889cc58ffddd9a2/maintainability)](https://codeclimate.com/github/johntron/npm-starter/maintainability)
 [![Greenkeeper badge](https://badges.greenkeeper.io/johntron/npm-starter.svg)](https://greenkeeper.io/)
+[![codecov](https://codecov.io/gh/johntron/npm-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/johntron/npm-starter)
 
 ## Getting Started
 
