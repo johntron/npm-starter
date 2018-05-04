@@ -20,4 +20,4 @@ rm -rf npm-starter
 
 Then these manual steps:
 
--   Copy Code Climate test reporter ID to environment variable in travis-ci
+-   Copy Code Climate test reporter ID to environment variable in travis-ci.

@@ -11,6 +11,7 @@
   "main": "index.js",
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
+    "coverage": "nyc report --reporter=lcov",
     "env": "env",
     "lint": "npm run lint-js && npm run lint-md",
     "lint-js": "eslint . --ignore-path .gitignore",
@@ -19,9 +20,7 @@
     "precommit": "npm test && npm run lint",
     "prepush": "npm run precommit",
     "release": "standard-version",
-    "test": "nyc mocha .",
-    "coverage": "nyc report --reporter=lcov",
-    "test-watch": "npm run test -- --watch"
+    "test": "nyc mocha .",    "test-watch": "npm run test -- --watch"
   },
   "dependencies": {
     "raven": "^2.6.0",
