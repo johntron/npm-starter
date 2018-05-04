@@ -19,8 +19,8 @@
     "precommit": "npm test && npm run lint",
     "prepush": "npm run precommit",
     "release": "standard-version",
-    "test": "mocha .",
-    "test-ci": "nyc npm test && nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "test": "nyc mocha .",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "test-watch": "npm run test -- --watch"
   },
   "dependencies": {
