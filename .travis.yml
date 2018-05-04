@@ -11,7 +11,7 @@ before_install:
 - npm install -g greenkeeper-lockfile@1
 before_script:
 - greenkeeper-lockfile-update
-- [ -e "./cc-test-reporter" ] || curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+- '[ -e "./cc-test-reporter" ] || curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter'
 - chmod +x ./cc-test-reporter
 - ./cc-test-reporter before-build
 script:
