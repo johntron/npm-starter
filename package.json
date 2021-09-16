@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "raven": "^2.6.0",
-    "update-notifier": "^3.0.0"
+    "update-notifier": "^4.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
